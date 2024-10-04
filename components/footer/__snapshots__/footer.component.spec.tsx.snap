@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should render 1`] = `
+<DocumentFragment>
+  <footer
+    class="sc-blHHSb cxvegA"
+  >
+    <p>
+      © 2024 Shimosawa Kenta. All rights reserved.
+    </p>
+  </footer>
+</DocumentFragment>
+`;
