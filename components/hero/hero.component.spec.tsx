@@ -1,15 +1,12 @@
 import { render } from "@testing-library/react";
 import { Hero } from "./hero.component";
-import { ThemeProvider } from "styled-components";
-import { theme } from "@/theme";
 import { expect } from "vitest";
+import { ThemeProvider } from "@/theme";
 
 describe("Hero", () => {
   it("should render", () => {
     const { asFragment } = render(<Hero />, {
-      wrapper: ({ children }) => (
-        <ThemeProvider theme={theme}>{children}</ThemeProvider>
-      ),
+      wrapper: ({ children }) => <ThemeProvider>{children}</ThemeProvider>,
     });
 
     expect(asFragment()).toMatchSnapshot();
