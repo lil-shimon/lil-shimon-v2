@@ -1,4 +1,4 @@
-import { HEADER_HEIGHT } from "@/theme/const";
+import { HEADER_HEIGHT } from "@/theme";
 import styled from "styled-components";
 
 export const Container = styled.div`
