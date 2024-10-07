@@ -1,0 +1,63 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Bio > should render 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-blHHSb kAByRm"
+  >
+    <h1
+      class="sc-gtLWhw gImffP"
+    >
+      Bio
+    </h1>
+    <div
+      class="sc-egkSDF hOJX"
+    >
+      <span
+        class="sc-fAUdSK bbVLsX"
+      >
+        2019
+      </span>
+      <span>
+        カナダ カルガリー留学
+      </span>
+    </div>
+    <div
+      class="sc-egkSDF hOJX"
+    >
+      <span
+        class="sc-fAUdSK bbVLsX"
+      >
+        2021
+      </span>
+      <span>
+        日本大学 経済学部経済学科国際コース 卒業
+      </span>
+    </div>
+    <div
+      class="sc-egkSDF hOJX"
+    >
+      <span
+        class="sc-fAUdSK bbVLsX"
+      >
+        2021
+      </span>
+      <span>
+        クェスタ株式会社 プログラマー 入社
+      </span>
+    </div>
+    <div
+      class="sc-egkSDF hOJX"
+    >
+      <span
+        class="sc-fAUdSK bbVLsX"
+      >
+        2023-現在
+      </span>
+      <span>
+        フリーランスエンジニア
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
